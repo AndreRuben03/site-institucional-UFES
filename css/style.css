@@ -1,0 +1,19 @@
+#cursos {
+    background-image: url(../img/campus.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+}
+
+#campus {
+    background-image: url(../img/campus.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+}
+
+li {
+    font-family: 'Roboto Mono', monospace;
+}
