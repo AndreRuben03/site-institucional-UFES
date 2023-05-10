@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@100&family=Lobster&family=Sigmar&display=swap" rel="stylesheet">
+    <title>Universidade Federal do Espírito Santo</title>
+</head>
+<header style="background-color: #D0D0D0;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="display: flex; justify-content: space-between;">
+            <img src="../img/logo.png" alt="" width="100px">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../ufes.html">
+                    Início
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/cursos.html">
+                    Cursos  
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/campus.html">
+                    Campus
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/vestiburales.html">
+                    Vestibulares
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/inscrições.html">
+                    Inscrições
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                >
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <body>
+    <div class="row" style="margin-right: 0; background-color: #D0D0D0;">
+        <div class="col" id="campus">
+            <h2 style="display: flex; justify-content: center; color: white; align-items: center; margin-top: 60px;">
+               inscrições - UFES
+            </h2>
+            <p style="display: flex; justify-content: center; color: white; align-items: center;">
+              inscrições para processos seletivos para cursos de graduação presenciais
+            </p>
+        </div>
+        <div class="col-12 p-4" style="background-color: #A7BCD3;">
+        <form class="">
+            <div class="row">
+                <div class="col">
+                    <label class="form-label">
+                        Nome
+                    </label>
+                    <input class="form-control" type="text" name="f_nome">
+                </div>
+                <div class="col">
+                    <label class="form-label">
+                        Sobrenome
+                    </label>
+                    <input class="form-control" type="text" name="f_nome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label">
+                        Email
+                    </label>
+                    <input class="form-control" type="email" name="f_nome">
+                </div>
+                <div class="col">
+                    <label class="form-label">
+                        Senha
+                    </label>
+                    <input class="form-control" type="password" name="f_nome">
+                </div>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Masculino
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Feminino
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Outros
+                </label>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label class="form-label">
+                        Telefone
+                    </label>
+                    <input class="form-control" type="text" name="f_nome">
+                </div>
+                <div class="col">
+                    <label class="form-label">
+                        Data de Nascimento
+                    </label>
+                    <input class="form-control" type="date" name="f_nome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="inputAddress" class="form-label">
+                        Endereço
+                    </label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col">    
+                    <label for="inputCity" class="form-label">
+                        Cidade
+                    </label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col">
+                    <label for="inputZip" class="form-label">
+                        CEP
+                    </label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col" style="margin-top: 40px;">
+                    <label for="inputState" class="form-label">
+                        Estado
+                    </label>
+                    <select id="inputState" class="form-select">
+                        <option selected>
+                            Selecione...
+                        </option>
+                        <option>
+                            Goiás
+                        </option>
+                        <option>
+                            Acre
+                        </option>
+                        <option>
+                            Alagoas
+                        </option>
+                        <option>
+                            Amapá
+                        </option>
+                        <option>
+                            Amazonas
+                        </option>
+                        <option>
+                            Bahia
+                        </option>
+                        <option>
+                            Ceará
+                        </option>
+                        <option>
+                            Espírito Santo
+                        </option>
+                        <option>
+                            Maranhão
+                        </option>
+                        <option>
+                            Mato Grosso
+                        </option>
+                        <option>
+                            Mato Grosso Sul
+                        </option>
+                        <option>
+                            Minas Gerais
+                        </option>
+                        <option>
+                            Pará
+                        </option>
+                        <option>
+                            Paraíba
+                        </option>
+                        <option>
+                            Paraná
+                        </option>
+                        <option>
+                            Pernambuco
+                        </option>
+                        <option>
+                            Piauí
+                        </option>
+                        <option>
+                            Rio de Janeiro
+                        </option>
+                        <option>
+                            Rio Grande do Norte
+                        </option>
+                        <option>
+                            Rio Grando do Sul
+                        </option>
+                        <option>
+                            Rondônia
+                        </option>
+                        <option>
+                            Roraima
+                        </option>
+                        <option>
+                            Santa Catarina
+                        </option>
+                        <option>
+                            São Paulo
+                        </option>
+                        <option>
+                            Sergipe
+                        </option>
+                        <option>
+                            Tocantins
+                        </option>
+                        <option>
+                            Distrito Federal
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="inputFile" class="form-label">
+                        Enviar foto do comprovante de endereço
+                    </label>
+                  <input class="form-control" type="file" id="inputFile"></div>
+                <div class="col">
+                    <label for="inputFile" class="form-label">
+                        Foto do RG (Frente)
+                    </label>
+                  <input class="form-control" type="file" id="inputFile">
+                </div>
+                <div class="col">
+                    <label for="inputFile" class="form-label">
+                        Foto do RG (Verso)
+                    </label>
+                  <input class="form-control" type="file" id="inputFile"></div>
+               </div>
+        </form>
+    </div>
+  </body>
+  <footer>
+    <div class="row" style="margin-right: 0; padding-top: 50px; background-color: #D0D0D0; display: flex;">
+      <div class="col" style="color: black;">
+        <ul style="list-style-type: none;">
+          <li>
+              <span>
+                Endereço:
+              </span> Av. Fernando Ferrari, 514, Goiabeiras | Vitória - ES - CEP 29075-910.
+          </li>
+          <li>
+            <span>
+              Telefone:
+            </span> +55 (27) 4009-7980
+          </li>
+          <li>
+            <span>
+              Reclamações e sugestões:
+            </span>
+            <a target="_blank" href="mailto:ouvidoria@ufesbr">
+              ouvidoria@ufes.br
+            </a>
+          </li>
+          <li>
+            <span>
+              Suporte técnico do portal:
+            </span>
+            <a target="_blank" href="mailto:suporte.portal@ufes.br">
+              suporte.portal@ufes.br
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col" style="padding-left: 400px;">
+        <img src="../img/fmage1.jpeg" alt="" width="250" style="padding-bottom: 60px;">
+      </div>  
+    </div>
+  </footer>
